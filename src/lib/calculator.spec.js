@@ -1,28 +1,28 @@
-const { expect } = require('@jest/globals');
-const { sum } = require('./calculator');
+const { expect } = require("@jest/globals");
+const { sum } = require("./calculator");
 
-it('should sum 2 and 2 and the result must be 4', () => {
+it("should sum 2 and 2 and the result must be 4", () => {
   expect(sum(2, 2)).toBe(4);
-})
+});
 
-it('should sum 2 and 2 even if one of then is a string', () => {
-  expect(sum('2', '2')).toBe(4);
-})
+it("should sum 2 and 2 even if one of then is a string", () => {
+  expect(sum("2", "2")).toBe(4);
+});
 
-it('should throw an error if what is provided to method isnt a number', () => {
+it("should throw an error if what is provided to method isnt a number", () => {
   expect(() => {
-    sum('', 2)
-  }).toThrowError()
-
-  expect(() => {
-    sum([2, 2])
-  }).toThrowError
+    sum("", 2);
+  }).toThrowError();
 
   expect(() => {
-    sum({})
-  }).toThrowError()
+    sum([2, 2]);
+  }).toThrowError;
 
   expect(() => {
-    sum()
-  }).toThrowError()
-})
+    sum({});
+  }).toThrowError();
+
+  expect(() => {
+    sum();
+  }).toThrowError();
+});
