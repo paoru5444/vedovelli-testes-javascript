@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638360940024" clover="3.2.0">
+  <project timestamp="1638360940024" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5" elements="32" coveredelements="32" complexity="0" loc="17" ncloc="17" packages="1" files="2" classes="2"/>
+    <file name="calculator.js" path="C:\dev\javascript\vedovelli-tests\vedovelli-testes-javascript\src\lib\calculator.js">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="5" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+    </file>
+    <file name="queryString.js" path="C:\dev\javascript\vedovelli-tests\vedovelli-testes-javascript\src\lib\queryString.js">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="2" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+    </file>
+  </project>
+</coverage>
